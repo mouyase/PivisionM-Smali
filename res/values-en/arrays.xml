@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_auto_create_subfolder_out">
+        <item>Never</item>
+        <item>"Illustrator's ID"</item>
+        <item>"Illustrator's name"</item>
+        <item>"Illustrator's ID_illustrator's name"</item>
+        <item>"Illustrator's name_illustrator's ID"</item>
+    </string-array>
+    <string-array name="pref_file_name_mode_out">
+        <item>"Work's ID"</item>
+        <item>"Work's name"</item>
+        <item>"Work's name_work's ID"</item>
+        <item>"Illustrator's ID_work's ID"</item>
+        <item>"Illustrator's name_work's ID"</item>
+        <item>"Illustrator's ID_work's name"</item>
+        <item>"Illustrator's name_work's name"</item>
+    </string-array>
+    <string-array name="pref_list_style_out">
+        <item>Grid</item>
+        <item>Waterfalls flow</item>
+    </string-array>
+</resources>

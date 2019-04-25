@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_auto_create_subfolder_out">
+        <item>不</item>
+        <item>作者id</item>
+        <item>作者名称</item>
+        <item>作者id_作者名称</item>
+        <item>作者名称_作者id</item>
+    </string-array>
+    <string-array name="pref_file_name_mode_out">
+        <item>作品id</item>
+        <item>作品名称</item>
+        <item>作品名称_作品id</item>
+        <item>作者id_作品id</item>
+        <item>作者名称_作品id</item>
+        <item>作者id_作品名称</item>
+        <item>作者名称_作品名称</item>
+    </string-array>
+    <string-array name="pref_list_style_out">
+        <item>方格</item>
+        <item>瀑布流</item>
+    </string-array>
+    <string-array name="open_source_list">
+        <item>Android</item>
+        <item>Glide</item>
+        <item>Gson</item>
+        <item>OkHttp</item>
+        <item>PhotoView</item>
+        <item>Retrofit</item>
+        <item>RoundedImageView</item>
+        <item>RxAndroid</item>
+        <item>RxJava</item>
+    </string-array>
+    <string-array name="pref_auto_create_subfolder_in">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>12</item>
+        <item>21</item>
+    </string-array>
+    <string-array name="pref_cache_size_values">
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="pref_columns_count">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="pref_file_name_mode_in">
+        <item>1</item>
+        <item>2</item>
+        <item>21</item>
+        <item>31</item>
+        <item>41</item>
+        <item>32</item>
+        <item>42</item>
+    </string-array>
+    <string-array name="pref_list_style_in">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

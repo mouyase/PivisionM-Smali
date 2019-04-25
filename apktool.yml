@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: 4.4.0-157536-o_1bpj2klcq1ia74rf1udbflcdnnq-uid-474181.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '22'
+sharedLibrary: false
+unknownFiles:
+  build-data.properties: '8'
+  publicsuffixes.gz: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '441'
+  versionName: 4.4.1

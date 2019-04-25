@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:id="@id/state_off" android:drawable="@drawable/ic_heart_off" />
+    <item android:state_checked="true" android:id="@id/state_on" android:drawable="@drawable/ic_heart_on" />
+    <transition android:toId="@id/state_on" android:fromId="@id/state_off">
+        <animated-vector android:drawable="@drawable/ic_heart_off">
+            <target android:name="heart_group" android:animation="@anim/heart_appear" />
+        </animated-vector>
+    </transition>
+</animated-selector>

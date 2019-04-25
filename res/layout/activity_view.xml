@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/toolbar_margin_top">
+        <ImageView android:id="@id/btnBack" android:padding="14.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_alignTop="@id/btnSave" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/ic_arrow_back_grey_24px" />
+        <ImageView android:id="@id/btnSave" android:padding="14.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_alignParentRight="true" app:srcCompat="@drawable/ic_save_grey_24px" />
+    </RelativeLayout>
+</RelativeLayout>

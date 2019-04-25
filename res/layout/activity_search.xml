@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?back" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?base" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:textColorHint="@color/white_translucent" android:id="@id/textView" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/hint_search" android:maxLines="1" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/btnSearch" android:background="@drawable/translucent_background" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" app:srcCompat="@drawable/ic_search_white_24px" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+        <android.support.design.widget.TabLayout android:id="@id/tabLayout" android:background="?base" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" app:tabIndicatorColor="@color/white" app:tabIndicatorHeight="6.0dip" app:tabMode="fixed" app:tabGravity="fill" app:tabTextAppearance="@style/TabText" app:tabTextColor="@color/white_translucent" app:tabSelectedTextColor="@color/white" />
+        <android.support.v4.view.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tabLayout" />
+        <ImageView android:background="@drawable/shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tabLayout" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+</RelativeLayout>

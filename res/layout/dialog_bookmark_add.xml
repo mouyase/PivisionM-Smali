@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bookmark_tag" />
+        <TextView android:layout_gravity="right" android:id="@id/tv_tag_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <RelativeLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/et_tag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/btn_add" />
+        <ImageButton android:id="@id/btn_add" android:padding="8.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerCrop" android:layout_alignParentRight="true" app:srcCompat="@drawable/ic_add" style="@style/Widget.AppCompat.Button.Borderless" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+    <FrameLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pri" />
+        <android.support.v7.widget.SwitchCompat android:layout_gravity="right" android:id="@id/switch_compat" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

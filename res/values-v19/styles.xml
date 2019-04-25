@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Translucent" parent="@style/AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="TranslucentNoActionBar" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

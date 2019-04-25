@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:orientation="vertical" android:background="?back" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@android:drawable/divider_horizontal_textfield" android:showDividers="middle">
+        <TextView android:textSize="16.0sp" android:textColor="?attrTextColor" android:gravity="center_vertical" android:id="@id/tvName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <TextView android:textColor="?attrTextColor" android:autoLink="web" android:id="@id/tvComment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <TextView android:textColor="?attrTextColor" android:id="@id/tvInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <TextView android:textColor="?attrTextColor" android:autoLink="web" android:id="@id/tvHomepage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

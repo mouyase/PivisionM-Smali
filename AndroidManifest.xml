@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.reiya.pixiv" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="com.reiya.pixiv.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.reiya.pixiv.permission.C2D_MESSAGE"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.reiya.pixiv.base.BaseApplication" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name="com.reiya.pixiv.other.SplashActivity" android:theme="@style/Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="touch.pixiv.net"/>
+                <data android:host="www.pixiv.net"/>
+                <data android:path="/member.php"/>
+                <data android:path="/member_illust.php"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.reiya.pixiv.work.ViewActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.zoom.ZoomActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.group.GroupViewActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.gif.GifActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.search.SearchActivity" android:theme="@style/Translucent" android:windowSoftInputMode="adjustPan">
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity android:name="com.reiya.pixiv.profile.ProfileActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.collection.FavoriteWorksActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.concern.FavoriteUsersActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.history.HistoryActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.spotlight.SpotlightActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.article.ArticleActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.other.SettingsActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.comment.CommentActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.grid.GridActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.historyranking.HistoryRankingActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.download.DownloadActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.other.OpenSourceActivity" android:theme="@style/Translucent"/>
+        <service android:name="com.reiya.pixiv.service.DownloadService"/>
+        <activity android:name="com.reiya.pixiv.ranking.RankingActivity" android:theme="@style/Translucent"/>
+        <activity android:name="com.reiya.pixiv.main.MainActivity" android:theme="@style/TranslucentNoActionBar"/>
+        <activity android:name="com.reiya.pixiv.search.KeywordActivity" android:theme="@style/Translucent" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.reiya.pixiv.other.LoginActivity" android:theme="@style/Translucent"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.reiya.pixiv"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"/>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.reiya.pixiv.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    </application>
+</manifest>

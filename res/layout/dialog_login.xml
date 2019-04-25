@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.TextInputLayout android:id="@id/tilAccount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+        <EditText android:id="@id/etAccount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account" android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:id="@id/tilPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+        <EditText android:id="@id/etPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/password" android:singleLine="true" android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+    <Button android:textSize="18.0sp" android:id="@id/button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/onLogin" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+</LinearLayout>

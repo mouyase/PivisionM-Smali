@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_auto_create_subfolder_out">
+        <item>Never</item>
+        <item>アーティストID</item>
+        <item>アーティスト名</item>
+        <item>アーティストID_アーティスト名</item>
+        <item>アーティスト名_アーティストID</item>
+    </string-array>
+    <string-array name="pref_file_name_mode_out">
+        <item>作品ID</item>
+        <item>作品名</item>
+        <item>作品名_作品ID</item>
+        <item>アーティストID_作品ID</item>
+        <item>アーティスト名_作品ID</item>
+        <item>アーティストID_作品名</item>
+        <item>アーティスト名_作品名</item>
+    </string-array>
+    <string-array name="pref_list_style_out">
+        <item>グリッド</item>
+        <item>滝の流れ</item>
+    </string-array>
+</resources>

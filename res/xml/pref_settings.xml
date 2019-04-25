@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/account">
+        <EditTextPreference android:maxLines="1" android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/account" android:key="@string/key_account" android:inputType="text" />
+        <EditTextPreference android:maxLines="1" android:singleLine="true" android:selectAllOnFocus="true" android:title="@string/password" android:key="@string/key_password" android:inputType="textPassword" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pic_saving">
+        <Preference android:title="@string/saving_path" android:key="@string/key_path" />
+        <ListPreference android:entries="@array/pref_file_name_mode_out" android:title="@string/saving_file_name" android:key="@string/key_file_name_mode" android:defaultValue="1" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_file_name_mode_in" />
+        <ListPreference android:entries="@array/pref_auto_create_subfolder_out" android:title="@string/auto_create_subfolder" android:key="@string/key_auto_create_subfolder" android:defaultValue="0" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_auto_create_subfolder_in" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/user_interface">
+        <Preference android:title="@string/theme_color" android:key="@string/key_theme_color" />
+        <ListPreference android:entries="@array/pref_columns_count" android:title="@string/list_columns_count" android:key="@string/key_columns_count" android:defaultValue="3" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_columns_count" />
+        <ListPreference android:entries="@array/pref_list_style_out" android:title="@string/list_style" android:key="@string/key_list_style" android:defaultValue="1" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_list_style_in" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pic_cache">
+        <ListPreference android:entries="@array/pref_cache_size_values" android:title="@string/cache_size_limit" android:key="@string/key_cache_limit" android:defaultValue="100" android:positiveButtonText="@null" android:negativeButtonText="@null" android:entryValues="@array/pref_cache_size_values" />
+        <Preference android:title="@string/clear_pic_cache" android:key="@string/key_current_cache_size" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/filter">
+        <EditTextPreference android:title="@string/blacklist_title" android:key="@string/key_blacklist" android:summary="@string/blacklist_summary" android:inputType="textMultiLine" />
+    </PreferenceCategory>
+</PreferenceScreen>
