@@ -51,7 +51,6 @@
     .line 99
     iget-object v0, p0, Landroid/support/v7/widget/ForwardingListener$1;->this$0:Landroid/support/v7/widget/ForwardingListener;
 
-    # invokes: Landroid/support/v7/widget/ForwardingListener;->onDetachedFromWindow()V
     invoke-static {v0}, Landroid/support/v7/widget/ForwardingListener;->access$000(Landroid/support/v7/widget/ForwardingListener;)V
 
     .line 100

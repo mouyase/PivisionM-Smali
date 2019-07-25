@@ -33,7 +33,6 @@
 
     .prologue
     .line 483
-    # invokes: Landroid/support/v7/app/NotificationCompat;->addStyleGetContentViewJellybean(Landroid/support/v4/b/am;Landroid/support/v4/b/an$d;)Landroid/widget/RemoteViews;
     invoke-static {p2, p1}, Landroid/support/v7/app/NotificationCompat;->access$400(Landroid/support/v4/b/am;Landroid/support/v4/b/an$d;)Landroid/widget/RemoteViews;
 
     move-result-object v0
@@ -51,7 +50,6 @@
 
     .line 490
     :cond_0
-    # invokes: Landroid/support/v7/app/NotificationCompat;->addBigStyleToBuilderJellybean(Landroid/app/Notification;Landroid/support/v4/b/an$d;)V
     invoke-static {v1, p1}, Landroid/support/v7/app/NotificationCompat;->access$500(Landroid/app/Notification;Landroid/support/v4/b/an$d;)V
 
     .line 491

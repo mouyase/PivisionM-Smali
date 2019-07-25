@@ -420,7 +420,7 @@
 
     .prologue
     .line 54
-    const-string v0, "https://oauth.secure.pixiv.4cy.me/"
+    const-string v0, "https://oauth.pixiv.4cy.me/"
 
     invoke-static {v0}, Lcom/reiya/pixiv/e/a;->a(Ljava/lang/String;)Lcom/reiya/pixiv/e/b;
 

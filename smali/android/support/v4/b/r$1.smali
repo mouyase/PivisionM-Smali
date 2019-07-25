@@ -43,7 +43,6 @@
     .line 2029
     iget-object v0, p0, Landroid/support/v4/b/r$1;->a:Landroid/support/v4/b/r;
 
-    # invokes: Landroid/support/v4/b/r;->callStartTransitionListener()V
     invoke-static {v0}, Landroid/support/v4/b/r;->access$800(Landroid/support/v4/b/r;)V
 
     .line 2030

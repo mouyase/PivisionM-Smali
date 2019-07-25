@@ -96,7 +96,6 @@
 
     iget-object v2, v2, Landroid/support/v7/widget/SearchView;->mSearchSrcTextView:Landroid/support/v7/widget/SearchView$SearchAutoComplete;
 
-    # invokes: Landroid/support/v7/widget/SearchView$SearchAutoComplete;->isEmpty()Z
     invoke-static {v2}, Landroid/support/v7/widget/SearchView$SearchAutoComplete;->access$000(Landroid/support/v7/widget/SearchView$SearchAutoComplete;)Z
 
     move-result v2

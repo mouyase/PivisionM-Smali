@@ -53,7 +53,6 @@
 
     iget-object v1, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mCornerRadii:[F
     invoke-static {v1}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$300(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)[F
 
     move-result-object v1
@@ -75,7 +74,6 @@
     iget-object v1, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
     .line 177
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mBorderWidth:F
     invoke-static {v1}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$200(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)F
 
     move-result v1
@@ -93,7 +91,6 @@
     iget-object v1, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
     .line 178
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mBorderColor:Landroid/content/res/ColorStateList;
     invoke-static {v1}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$100(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)Landroid/content/res/ColorStateList;
 
     move-result-object v1
@@ -111,7 +108,6 @@
     iget-object v1, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
     .line 179
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mOval:Z
     invoke-static {v1}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$000(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)Z
 
     move-result v1
@@ -139,7 +135,6 @@
     iget-object v1, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
     .line 163
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mScaleType:Landroid/widget/ImageView$ScaleType;
     invoke-static {v1}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$400(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)Landroid/widget/ImageView$ScaleType;
 
     move-result-object v1
@@ -151,7 +146,6 @@
     iget-object v1, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
     .line 164
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mCornerRadii:[F
     invoke-static {v1}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$300(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)[F
 
     move-result-object v1
@@ -162,7 +156,6 @@
 
     iget-object v2, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mCornerRadii:[F
     invoke-static {v2}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$300(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)[F
 
     move-result-object v2
@@ -173,7 +166,6 @@
 
     iget-object v3, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mCornerRadii:[F
     invoke-static {v3}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$300(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)[F
 
     move-result-object v3
@@ -184,7 +176,6 @@
 
     iget-object v4, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mCornerRadii:[F
     invoke-static {v4}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$300(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)[F
 
     move-result-object v4
@@ -200,7 +191,6 @@
     iget-object v1, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
     .line 165
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mBorderWidth:F
     invoke-static {v1}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$200(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)F
 
     move-result v1
@@ -212,7 +202,6 @@
     iget-object v1, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
     .line 166
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mBorderColor:Landroid/content/res/ColorStateList;
     invoke-static {v1}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$100(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)Landroid/content/res/ColorStateList;
 
     move-result-object v1
@@ -224,7 +213,6 @@
     iget-object v1, p0, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder$1;->this$0:Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;
 
     .line 167
-    # getter for: Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->mOval:Z
     invoke-static {v1}, Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;->access$000(Lcom/makeramen/roundedimageview/RoundedTransformationBuilder;)Z
 
     move-result v1

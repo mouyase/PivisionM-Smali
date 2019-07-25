@@ -110,7 +110,7 @@
     sput-object v0, Lcom/reiya/pixiv/e/a;->a:Lokhttp3/OkHttpClient;
 
     .line 65
-    const-string v0, "https://app-api.pixiv.4cy.me/"
+    const-string v0, "https://api.pixiv.4cy.me/"
 
     invoke-static {v0}, Lcom/reiya/pixiv/e/a;->b(Ljava/lang/String;)Lretrofit2/Retrofit;
 

@@ -736,7 +736,6 @@
     :cond_c
     iget-object v0, p0, Landroid/support/v7/widget/RecyclerView$ViewFlinger;->this$0:Landroid/support/v7/widget/RecyclerView;
 
-    # invokes: Landroid/support/v7/widget/RecyclerView;->awakenScrollBars()Z
     invoke-static {v0}, Landroid/support/v7/widget/RecyclerView;->access$500(Landroid/support/v7/widget/RecyclerView;)Z
 
     move-result v0
@@ -819,7 +818,6 @@
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/RecyclerView;->setScrollState(I)V
 
     .line 4792
-    # getter for: Landroid/support/v7/widget/RecyclerView;->ALLOW_THREAD_GAP_WORK:Z
     invoke-static {}, Landroid/support/v7/widget/RecyclerView;->access$600()Z
 
     move-result v0
@@ -850,7 +848,6 @@
 
     const/4 v1, 0x0
 
-    # invokes: Landroid/support/v7/widget/RecyclerView$SmoothScroller;->onAnimation(II)V
     invoke-static {v8, v0, v1}, Landroid/support/v7/widget/RecyclerView$SmoothScroller;->access$400(Landroid/support/v7/widget/RecyclerView$SmoothScroller;II)V
 
     .line 4807
@@ -886,7 +883,6 @@
 
     sub-int v5, v12, v0
 
-    # invokes: Landroid/support/v7/widget/RecyclerView$SmoothScroller;->onAnimation(II)V
     invoke-static {v8, v4, v5}, Landroid/support/v7/widget/RecyclerView$SmoothScroller;->access$400(Landroid/support/v7/widget/RecyclerView$SmoothScroller;II)V
 
     move v14, v2
@@ -903,7 +899,6 @@
 
     sub-int v5, v12, v0
 
-    # invokes: Landroid/support/v7/widget/RecyclerView$SmoothScroller;->onAnimation(II)V
     invoke-static {v8, v4, v5}, Landroid/support/v7/widget/RecyclerView$SmoothScroller;->access$400(Landroid/support/v7/widget/RecyclerView$SmoothScroller;II)V
 
     :cond_16

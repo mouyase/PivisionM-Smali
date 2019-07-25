@@ -1997,13 +1997,11 @@
     .line 5840
     const/4 v1, 0x0
 
-    # setter for: Landroid/support/v7/widget/RecyclerView$ViewHolder;->mScrapContainer:Landroid/support/v7/widget/RecyclerView$Recycler;
     invoke-static {v0, v1}, Landroid/support/v7/widget/RecyclerView$ViewHolder;->access$802(Landroid/support/v7/widget/RecyclerView$ViewHolder;Landroid/support/v7/widget/RecyclerView$Recycler;)Landroid/support/v7/widget/RecyclerView$Recycler;
 
     .line 5841
     const/4 v1, 0x0
 
-    # setter for: Landroid/support/v7/widget/RecyclerView$ViewHolder;->mInChangeScrap:Z
     invoke-static {v0, v1}, Landroid/support/v7/widget/RecyclerView$ViewHolder;->access$902(Landroid/support/v7/widget/RecyclerView$ViewHolder;Z)Z
 
     .line 5842
@@ -2048,7 +2046,6 @@
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
     .line 5698
-    # getter for: Landroid/support/v7/widget/RecyclerView;->ALLOW_THREAD_GAP_WORK:Z
     invoke-static {}, Landroid/support/v7/widget/RecyclerView;->access$600()Z
 
     move-result v0
@@ -2283,7 +2280,6 @@
 
     .line 5750
     :cond_4
-    # invokes: Landroid/support/v7/widget/RecyclerView$ViewHolder;->doesTransientStatePreventRecycling()Z
     invoke-static {p1}, Landroid/support/v7/widget/RecyclerView$ViewHolder;->access$700(Landroid/support/v7/widget/RecyclerView$ViewHolder;)Z
 
     move-result v4
@@ -2357,7 +2353,6 @@
 
     .line 5774
     :cond_6
-    # getter for: Landroid/support/v7/widget/RecyclerView;->ALLOW_THREAD_GAP_WORK:Z
     invoke-static {}, Landroid/support/v7/widget/RecyclerView;->access$600()Z
 
     move-result v3
@@ -3160,7 +3155,6 @@
     move-result-object v0
 
     .line 5556
-    # getter for: Landroid/support/v7/widget/RecyclerView;->ALLOW_THREAD_GAP_WORK:Z
     invoke-static {}, Landroid/support/v7/widget/RecyclerView;->access$600()Z
 
     move-result v4
@@ -3444,7 +3438,6 @@
 
     .prologue
     .line 5882
-    # getter for: Landroid/support/v7/widget/RecyclerView$ViewHolder;->mInChangeScrap:Z
     invoke-static {p1}, Landroid/support/v7/widget/RecyclerView$ViewHolder;->access$900(Landroid/support/v7/widget/RecyclerView$ViewHolder;)Z
 
     move-result v0
@@ -3460,13 +3453,11 @@
     :goto_0
     const/4 v0, 0x0
 
-    # setter for: Landroid/support/v7/widget/RecyclerView$ViewHolder;->mScrapContainer:Landroid/support/v7/widget/RecyclerView$Recycler;
     invoke-static {p1, v0}, Landroid/support/v7/widget/RecyclerView$ViewHolder;->access$802(Landroid/support/v7/widget/RecyclerView$ViewHolder;Landroid/support/v7/widget/RecyclerView$Recycler;)Landroid/support/v7/widget/RecyclerView$Recycler;
 
     .line 5888
     const/4 v0, 0x0
 
-    # setter for: Landroid/support/v7/widget/RecyclerView$ViewHolder;->mInChangeScrap:Z
     invoke-static {p1, v0}, Landroid/support/v7/widget/RecyclerView$ViewHolder;->access$902(Landroid/support/v7/widget/RecyclerView$ViewHolder;Z)Z
 
     .line 5889

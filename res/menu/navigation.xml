@@ -6,7 +6,6 @@
         <item android:icon="@drawable/ic_person_colored_24px" android:id="@id/concern" android:title="@string/concern" />
         <item android:icon="@drawable/ic_history_colored_24px" android:id="@id/history" android:title="@string/history" />
         <item android:icon="@drawable/ic_file_download_colored_24px" android:id="@id/download" android:title="@string/download_queue" />
-        <!-- <item android:icon="@drawable/pixiv_p" android:id="@id/spotlight" android:title="@string/pixivision" /> -->
     </group>
     <group>
         <item android:icon="@drawable/ic_settings_colored_24px" android:id="@id/settings" android:title="@string/settings" />

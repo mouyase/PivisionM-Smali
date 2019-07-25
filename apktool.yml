@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: Pivision.apk
+apkFileName: Pivision_4.4.1.Modify_by_MoeArthur.apk
 compressionType: false
 doNotCompress:
 - arsc
@@ -14,12 +14,13 @@ sharedLibrary: false
 unknownFiles:
   build-data.properties: '8'
   publicsuffixes.gz: '8'
+  .DS_Store: '0'
   jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
 usesFramework:
   ids:
   - 1
   tag: null
-version: 2.2.1
+version: 2.2.4
 versionInfo:
-  versionCode: '441'
-  versionName: 4.4.1
+  versionCode: '442'
+  versionName: 4.4.1 Modify 1.1

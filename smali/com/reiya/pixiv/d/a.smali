@@ -59,7 +59,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "v4.4.1\u0028\u004d\u006f\u0064\u0069\u0066\u0079\u0020\u0062\u0079\u0020\u67d0\u4e9a\u745f\u0029\n"
+    const-string v4, "v4.4.1(Modify 1.1 by \u67d0\u4e9a\u745f)\n"
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

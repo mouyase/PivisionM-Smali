@@ -33,7 +33,6 @@
 
     .prologue
     .line 503
-    # invokes: Landroid/support/v7/app/NotificationCompat;->addStyleGetContentViewLollipop(Landroid/support/v4/b/am;Landroid/support/v4/b/an$d;)Landroid/widget/RemoteViews;
     invoke-static {p2, p1}, Landroid/support/v7/app/NotificationCompat;->access$600(Landroid/support/v4/b/am;Landroid/support/v4/b/an$d;)Landroid/widget/RemoteViews;
 
     move-result-object v0
@@ -51,11 +50,9 @@
 
     .line 510
     :cond_0
-    # invokes: Landroid/support/v7/app/NotificationCompat;->addBigStyleToBuilderLollipop(Landroid/app/Notification;Landroid/support/v4/b/an$d;)V
     invoke-static {v1, p1}, Landroid/support/v7/app/NotificationCompat;->access$700(Landroid/app/Notification;Landroid/support/v4/b/an$d;)V
 
     .line 511
-    # invokes: Landroid/support/v7/app/NotificationCompat;->addHeadsUpToBuilderLollipop(Landroid/app/Notification;Landroid/support/v4/b/an$d;)V
     invoke-static {v1, p1}, Landroid/support/v7/app/NotificationCompat;->access$800(Landroid/app/Notification;Landroid/support/v4/b/an$d;)V
 
     .line 512

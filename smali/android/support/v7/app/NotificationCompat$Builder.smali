@@ -121,7 +121,6 @@
     check-cast v0, Landroid/support/v4/b/an$h;
 
     .line 405
-    # invokes: Landroid/support/v7/app/NotificationCompat;->findLatestIncomingMessage(Landroid/support/v4/b/an$h;)Landroid/support/v4/b/an$h$a;
     invoke-static {v0}, Landroid/support/v7/app/NotificationCompat;->access$000(Landroid/support/v4/b/an$h;)Landroid/support/v4/b/an$h$a;
 
     move-result-object v1
@@ -137,7 +136,6 @@
     .line 408
     if-eqz v2, :cond_0
 
-    # invokes: Landroid/support/v7/app/NotificationCompat;->makeMessageLine(Landroid/support/v4/b/an$d;Landroid/support/v4/b/an$h;Landroid/support/v4/b/an$h$a;)Ljava/lang/CharSequence;
     invoke-static {p0, v0, v1}, Landroid/support/v7/app/NotificationCompat;->access$100(Landroid/support/v4/b/an$d;Landroid/support/v4/b/an$h;Landroid/support/v4/b/an$h$a;)Ljava/lang/CharSequence;
 
     move-result-object v0
@@ -180,7 +178,6 @@
     check-cast v0, Landroid/support/v4/b/an$h;
 
     .line 425
-    # invokes: Landroid/support/v7/app/NotificationCompat;->findLatestIncomingMessage(Landroid/support/v4/b/an$h;)Landroid/support/v4/b/an$h$a;
     invoke-static {v0}, Landroid/support/v7/app/NotificationCompat;->access$000(Landroid/support/v4/b/an$h;)Landroid/support/v4/b/an$h$a;
 
     move-result-object v1

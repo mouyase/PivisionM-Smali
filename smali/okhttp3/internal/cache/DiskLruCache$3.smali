@@ -248,7 +248,6 @@
 
     iget-object v1, p0, Lokhttp3/internal/cache/DiskLruCache$3;->removeSnapshot:Lokhttp3/internal/cache/DiskLruCache$Snapshot;
 
-    # getter for: Lokhttp3/internal/cache/DiskLruCache$Snapshot;->key:Ljava/lang/String;
     invoke-static {v1}, Lokhttp3/internal/cache/DiskLruCache$Snapshot;->access$000(Lokhttp3/internal/cache/DiskLruCache$Snapshot;)Ljava/lang/String;
 
     move-result-object v1
