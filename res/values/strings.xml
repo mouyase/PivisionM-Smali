@@ -43,13 +43,19 @@
     <string name="action_register">访问pixiv注册账号</string>
     <string name="action_sign_in">登录</string>
     <string name="add_collection">收藏</string>
-    <string name="app_name">Pivision</string>
+    <string name="app_name">PivisionM</string>
     <string name="app_ranking">评分</string>
-    <string name="app_update_log">"1. 增加批量保存收藏作品功能 
-2. 增加收藏附加标签功能
-Modify
-1. 解锁了网络访问
-2. 去掉了功能不正常的pixivision"</string>
+    <string name="app_update_log">"1. 解锁了网络访问
+2. 去掉了功能不正常的pixivision
+3. 更新了OAuth接口，可以正常登陆了
+4. 适配了分屏功能
+5. 适配了全面屏比例
+
+原作者：Reiya
+修改者：某亚瑟
+如需反馈可以发邮件至「i@4cy.me」
+或者来我的博客「4cy.me」
+以及「酷安网」主页评论"</string>
     <string name="auto_create_subfolder">自动建立子文件夹</string>
     <string name="blacklist_summary">以换行分隔，适用于排行榜和搜索</string>
     <string name="blacklist_title">屏蔽标签</string>
@@ -157,7 +163,11 @@ Modify
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern">%1$d / %2$d</string>
-    <string name="clip_info_donate">" 已复制到剪贴板（支付宝）"</string>
+    <string name="clip_info_donate">"
+「支付宝」账号已复制到剪贴板
+
+原作者支付宝账号「reiya.zyr@gmail.com」
+如果喜欢软件请捐助给Ta"</string>
     <string name="default_web_client_id">65695658003-f7aiib40pb9gqlpecf8kgjtv2roa4qia.apps.googleusercontent.com</string>
     <string name="define_roundedimageview" />
     <string name="donate">捐助</string>

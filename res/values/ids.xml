@@ -16,168 +16,168 @@
     <item type="id" name="transition_scene_layoutid_cache" />
     <item type="id" name="up" />
     <item type="id" name="view_offset_helper" />
-    <item type="id" name="action_bar_title">false</item>
-    <item type="id" name="action_bar_subtitle">false</item>
-    <item type="id" name="action_mode_close_button">false</item>
-    <item type="id" name="activity_chooser_view_content">false</item>
-    <item type="id" name="expand_activities_button">false</item>
-    <item type="id" name="image">false</item>
-    <item type="id" name="default_activity_button">false</item>
-    <item type="id" name="list_item">false</item>
-    <item type="id" name="icon">false</item>
-    <item type="id" name="title">false</item>
-    <item type="id" name="buttonPanel">false</item>
-    <item type="id" name="spacer">false</item>
-    <item type="id" name="parentPanel">false</item>
-    <item type="id" name="contentPanel">false</item>
-    <item type="id" name="scrollIndicatorUp">false</item>
-    <item type="id" name="scrollView">false</item>
-    <item type="id" name="textSpacerNoTitle">false</item>
-    <item type="id" name="textSpacerNoButtons">false</item>
-    <item type="id" name="scrollIndicatorDown">false</item>
-    <item type="id" name="customPanel">false</item>
-    <item type="id" name="custom">false</item>
-    <item type="id" name="topPanel">false</item>
-    <item type="id" name="title_template">false</item>
-    <item type="id" name="alertTitle">false</item>
-    <item type="id" name="titleDividerNoCustom">false</item>
-    <item type="id" name="expanded_menu">false</item>
-    <item type="id" name="checkbox">false</item>
-    <item type="id" name="shortcut">false</item>
-    <item type="id" name="radio">false</item>
-    <item type="id" name="submenuarrow">false</item>
-    <item type="id" name="action_bar_root">false</item>
-    <item type="id" name="action_mode_bar_stub">false</item>
-    <item type="id" name="action_mode_bar">false</item>
-    <item type="id" name="decor_content_parent">false</item>
-    <item type="id" name="action_bar_container">false</item>
-    <item type="id" name="action_bar">false</item>
-    <item type="id" name="action_context_bar">false</item>
-    <item type="id" name="edit_query">false</item>
-    <item type="id" name="search_bar">false</item>
-    <item type="id" name="search_badge">false</item>
-    <item type="id" name="search_button">false</item>
-    <item type="id" name="search_edit_frame">false</item>
-    <item type="id" name="search_mag_icon">false</item>
-    <item type="id" name="search_plate">false</item>
-    <item type="id" name="search_src_text">false</item>
-    <item type="id" name="search_close_btn">false</item>
-    <item type="id" name="submit_area">false</item>
-    <item type="id" name="search_go_btn">false</item>
-    <item type="id" name="search_voice_btn">false</item>
-    <item type="id" name="select_dialog_listview">false</item>
-    <item type="id" name="toolbar">false</item>
-    <item type="id" name="webView">false</item>
-    <item type="id" name="recyclerView">false</item>
-    <item type="id" name="linearLayout">false</item>
-    <item type="id" name="tabLayout">false</item>
-    <item type="id" name="viewPager">false</item>
-    <item type="id" name="video_view">false</item>
-    <item type="id" name="progressBar">false</item>
-    <item type="id" name="btnSave">false</item>
-    <item type="id" name="activity_keyword">false</item>
-    <item type="id" name="editText">false</item>
-    <item type="id" name="btnSearch">false</item>
-    <item type="id" name="listView">false</item>
-    <item type="id" name="login_form">false</item>
-    <item type="id" name="account">false</item>
-    <item type="id" name="iv_clear_account">false</item>
-    <item type="id" name="password">false</item>
-    <item type="id" name="iv_clear_password">false</item>
-    <item type="id" name="register_button">false</item>
-    <item type="id" name="sign_in_button">false</item>
-    <item type="id" name="ripple_view">false</item>
-    <item type="id" name="login_progress_view">false</item>
-    <item type="id" name="login_progress">false</item>
-    <item type="id" name="drawerLayout">false</item>
-    <item type="id" name="toolbarLayout">false</item>
-    <item type="id" name="ivHeader">false</item>
-    <item type="id" name="tvTitle">false</item>
-    <item type="id" name="navigationView">false</item>
-    <item type="id" name="ivProfile">false</item>
-    <item type="id" name="btnFollow">false</item>
-    <item type="id" name="textView">false</item>
-    <item type="id" name="fragment">false</item>
-    <item type="id" name="imageView">false</item>
-    <item type="id" name="btnBack">false</item>
-    <item type="id" name="iv">false</item>
-    <item type="id" name="smallLabel">false</item>
-    <item type="id" name="largeLabel">false</item>
-    <item type="id" name="touch_outside">false</item>
-    <item type="id" name="design_bottom_sheet">false</item>
-    <item type="id" name="snackbar_text">false</item>
-    <item type="id" name="snackbar_action">false</item>
-    <item type="id" name="navigation_header_container">false</item>
-    <item type="id" name="design_navigation_view">false</item>
-    <item type="id" name="design_menu_item_text">false</item>
-    <item type="id" name="design_menu_item_action_area_stub">false</item>
-    <item type="id" name="design_menu_item_action_area">false</item>
-    <item type="id" name="text_input_password_toggle">false</item>
-    <item type="id" name="tv_tag_count">false</item>
-    <item type="id" name="et_tag">false</item>
-    <item type="id" name="btn_add">false</item>
-    <item type="id" name="list">false</item>
-    <item type="id" name="switch_compat">false</item>
-    <item type="id" name="tilAccount">false</item>
-    <item type="id" name="etAccount">false</item>
-    <item type="id" name="tilPassword">false</item>
-    <item type="id" name="etPassword">false</item>
-    <item type="id" name="button">false</item>
-    <item type="id" name="relativeLayout">false</item>
-    <item type="id" name="tvName">false</item>
-    <item type="id" name="btnFav">false</item>
-    <item type="id" name="tvPage">false</item>
-    <item type="id" name="ivDyn">false</item>
-    <item type="id" name="tvCaption">false</item>
-    <item type="id" name="tvInfo">false</item>
-    <item type="id" name="tagLayout">false</item>
-    <item type="id" name="userInfoLayout">false</item>
-    <item type="id" name="ivProfile2">false</item>
-    <item type="id" name="tvName2">false</item>
-    <item type="id" name="commentLayout">false</item>
-    <item type="id" name="RelatedWorksLayout">false</item>
-    <item type="id" name="tv">false</item>
-    <item type="id" name="tv_name">false</item>
-    <item type="id" name="tvText">false</item>
-    <item type="id" name="tvTime">false</item>
-    <item type="id" name="textView2">false</item>
-    <item type="id" name="textView1">false</item>
-    <item type="id" name="tvTag">false</item>
-    <item type="id" name="tvComment">false</item>
-    <item type="id" name="tvHomepage">false</item>
-    <item type="id" name="action_container">false</item>
-    <item type="id" name="action_image">false</item>
-    <item type="id" name="action_text">false</item>
-    <item type="id" name="action0">false</item>
-    <item type="id" name="cancel_action">false</item>
-    <item type="id" name="status_bar_latest_event_content">false</item>
-    <item type="id" name="media_actions">false</item>
-    <item type="id" name="action_divider">false</item>
-    <item type="id" name="notification_main_column_container">false</item>
-    <item type="id" name="notification_main_column">false</item>
-    <item type="id" name="right_side">false</item>
-    <item type="id" name="time">false</item>
-    <item type="id" name="chronometer">false</item>
-    <item type="id" name="info">false</item>
-    <item type="id" name="notification_background">false</item>
-    <item type="id" name="right_icon">false</item>
-    <item type="id" name="actions">false</item>
-    <item type="id" name="icon_group">false</item>
-    <item type="id" name="line1">false</item>
-    <item type="id" name="text2">false</item>
-    <item type="id" name="line3">false</item>
-    <item type="id" name="text">false</item>
-    <item type="id" name="end_padder">false</item>
-    <item type="id" name="visible">false</item>
-    <item type="id" name="masked">false</item>
-    <item type="id" name="state_off">false</item>
-    <item type="id" name="state_on">false</item>
-    <item type="id" name="search">false</item>
-    <item type="id" name="collection">false</item>
-    <item type="id" name="concern">false</item>
-    <item type="id" name="history">false</item>
-    <item type="id" name="download">false</item>
-    <item type="id" name="spotlight">false</item>
-    <item type="id" name="settings">false</item>
-    <item type="id" name="about">false</item>
+    <item type="id" name="action_bar_title" />
+    <item type="id" name="action_bar_subtitle" />
+    <item type="id" name="action_mode_close_button" />
+    <item type="id" name="activity_chooser_view_content" />
+    <item type="id" name="expand_activities_button" />
+    <item type="id" name="image" />
+    <item type="id" name="default_activity_button" />
+    <item type="id" name="list_item" />
+    <item type="id" name="icon" />
+    <item type="id" name="title" />
+    <item type="id" name="buttonPanel" />
+    <item type="id" name="spacer" />
+    <item type="id" name="parentPanel" />
+    <item type="id" name="contentPanel" />
+    <item type="id" name="scrollIndicatorUp" />
+    <item type="id" name="scrollView" />
+    <item type="id" name="textSpacerNoTitle" />
+    <item type="id" name="textSpacerNoButtons" />
+    <item type="id" name="scrollIndicatorDown" />
+    <item type="id" name="customPanel" />
+    <item type="id" name="custom" />
+    <item type="id" name="topPanel" />
+    <item type="id" name="title_template" />
+    <item type="id" name="alertTitle" />
+    <item type="id" name="titleDividerNoCustom" />
+    <item type="id" name="expanded_menu" />
+    <item type="id" name="checkbox" />
+    <item type="id" name="shortcut" />
+    <item type="id" name="radio" />
+    <item type="id" name="submenuarrow" />
+    <item type="id" name="action_bar_root" />
+    <item type="id" name="action_mode_bar_stub" />
+    <item type="id" name="action_mode_bar" />
+    <item type="id" name="decor_content_parent" />
+    <item type="id" name="action_bar_container" />
+    <item type="id" name="action_bar" />
+    <item type="id" name="action_context_bar" />
+    <item type="id" name="edit_query" />
+    <item type="id" name="search_bar" />
+    <item type="id" name="search_badge" />
+    <item type="id" name="search_button" />
+    <item type="id" name="search_edit_frame" />
+    <item type="id" name="search_mag_icon" />
+    <item type="id" name="search_plate" />
+    <item type="id" name="search_src_text" />
+    <item type="id" name="search_close_btn" />
+    <item type="id" name="submit_area" />
+    <item type="id" name="search_go_btn" />
+    <item type="id" name="search_voice_btn" />
+    <item type="id" name="select_dialog_listview" />
+    <item type="id" name="toolbar" />
+    <item type="id" name="webView" />
+    <item type="id" name="recyclerView" />
+    <item type="id" name="linearLayout" />
+    <item type="id" name="tabLayout" />
+    <item type="id" name="viewPager" />
+    <item type="id" name="video_view" />
+    <item type="id" name="progressBar" />
+    <item type="id" name="btnSave" />
+    <item type="id" name="activity_keyword" />
+    <item type="id" name="editText" />
+    <item type="id" name="btnSearch" />
+    <item type="id" name="listView" />
+    <item type="id" name="login_form" />
+    <item type="id" name="account" />
+    <item type="id" name="iv_clear_account" />
+    <item type="id" name="password" />
+    <item type="id" name="iv_clear_password" />
+    <item type="id" name="register_button" />
+    <item type="id" name="sign_in_button" />
+    <item type="id" name="ripple_view" />
+    <item type="id" name="login_progress_view" />
+    <item type="id" name="login_progress" />
+    <item type="id" name="drawerLayout" />
+    <item type="id" name="toolbarLayout" />
+    <item type="id" name="ivHeader" />
+    <item type="id" name="tvTitle" />
+    <item type="id" name="navigationView" />
+    <item type="id" name="ivProfile" />
+    <item type="id" name="btnFollow" />
+    <item type="id" name="textView" />
+    <item type="id" name="fragment" />
+    <item type="id" name="imageView" />
+    <item type="id" name="btnBack" />
+    <item type="id" name="iv" />
+    <item type="id" name="smallLabel" />
+    <item type="id" name="largeLabel" />
+    <item type="id" name="touch_outside" />
+    <item type="id" name="design_bottom_sheet" />
+    <item type="id" name="snackbar_text" />
+    <item type="id" name="snackbar_action" />
+    <item type="id" name="navigation_header_container" />
+    <item type="id" name="design_navigation_view" />
+    <item type="id" name="design_menu_item_text" />
+    <item type="id" name="design_menu_item_action_area_stub" />
+    <item type="id" name="design_menu_item_action_area" />
+    <item type="id" name="text_input_password_toggle" />
+    <item type="id" name="tv_tag_count" />
+    <item type="id" name="et_tag" />
+    <item type="id" name="btn_add" />
+    <item type="id" name="list" />
+    <item type="id" name="switch_compat" />
+    <item type="id" name="tilAccount" />
+    <item type="id" name="etAccount" />
+    <item type="id" name="tilPassword" />
+    <item type="id" name="etPassword" />
+    <item type="id" name="button" />
+    <item type="id" name="relativeLayout" />
+    <item type="id" name="tvName" />
+    <item type="id" name="btnFav" />
+    <item type="id" name="tvPage" />
+    <item type="id" name="ivDyn" />
+    <item type="id" name="tvCaption" />
+    <item type="id" name="tvInfo" />
+    <item type="id" name="tagLayout" />
+    <item type="id" name="userInfoLayout" />
+    <item type="id" name="ivProfile2" />
+    <item type="id" name="tvName2" />
+    <item type="id" name="commentLayout" />
+    <item type="id" name="RelatedWorksLayout" />
+    <item type="id" name="tv" />
+    <item type="id" name="tv_name" />
+    <item type="id" name="tvText" />
+    <item type="id" name="tvTime" />
+    <item type="id" name="textView2" />
+    <item type="id" name="textView1" />
+    <item type="id" name="tvTag" />
+    <item type="id" name="tvComment" />
+    <item type="id" name="tvHomepage" />
+    <item type="id" name="action_container" />
+    <item type="id" name="action_image" />
+    <item type="id" name="action_text" />
+    <item type="id" name="action0" />
+    <item type="id" name="cancel_action" />
+    <item type="id" name="status_bar_latest_event_content" />
+    <item type="id" name="media_actions" />
+    <item type="id" name="action_divider" />
+    <item type="id" name="notification_main_column_container" />
+    <item type="id" name="notification_main_column" />
+    <item type="id" name="right_side" />
+    <item type="id" name="time" />
+    <item type="id" name="chronometer" />
+    <item type="id" name="info" />
+    <item type="id" name="notification_background" />
+    <item type="id" name="right_icon" />
+    <item type="id" name="actions" />
+    <item type="id" name="icon_group" />
+    <item type="id" name="line1" />
+    <item type="id" name="text2" />
+    <item type="id" name="line3" />
+    <item type="id" name="text" />
+    <item type="id" name="end_padder" />
+    <item type="id" name="visible" />
+    <item type="id" name="masked" />
+    <item type="id" name="state_off" />
+    <item type="id" name="state_on" />
+    <item type="id" name="search" />
+    <item type="id" name="collection" />
+    <item type="id" name="concern" />
+    <item type="id" name="history" />
+    <item type="id" name="download" />
+    <item type="id" name="spotlight" />
+    <item type="id" name="settings" />
+    <item type="id" name="about" />
 </resources>

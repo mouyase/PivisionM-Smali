@@ -50,7 +50,7 @@
     if-eqz v0, :cond_0
 
     .line 38
-    const-string v1, "reiya.zyr@gmail.com"
+    const-string v1, "mouyase@qq.com"
 
     .line 39
     iget-object v0, p0, Lcom/reiya/pixiv/d/a$2;->b:Lcom/reiya/pixiv/d/a;

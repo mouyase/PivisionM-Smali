@@ -59,7 +59,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "v4.4.1(Modify 1.1 by \u67d0\u4e9a\u745f)\n"
+    const-string v4, "PivisionM v1.0 \u57fa\u7248 Pivision 4.4.1\n"
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

@@ -72,6 +72,22 @@
 
     const-string v2, "android"
 
+    invoke-virtual {v0, v1, v2}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+
+    move-result-object v0
+
+    const-string v1, "x-client-time"
+
+    const-string v2, "3000-01-01T00:00:00+00:00"
+
+    invoke-virtual {v0, v1, v2}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+
+    move-result-object v0
+
+    const-string v1, "x-client-hash"
+
+    const-string v2, "93771864335ef0c8e52db10be563eab3"
+
     .line 50
     invoke-virtual {v0, v1, v2}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
 
@@ -106,7 +122,7 @@
 
     const-string v1, "App-Version"
 
-    const-string v2, "5.0.51"
+    const-string v2, "5.0.156"
 
     .line 52
     invoke-virtual {v0, v1, v2}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
