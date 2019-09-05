@@ -356,8 +356,6 @@
     <public type="attr" name="theme" id="0x7f010161" />
     <public type="attr" name="backgroundTint" id="0x7f010162" />
     <public type="attr" name="backgroundTintMode" id="0x7f010163" />
-    <public type="drawable" name="design_ic_visibility" id="0x7f02006d" />
-    <public type="drawable" name="design_ic_visibility_off" id="0x7f02006e" />
     <public type="drawable" name="abc_btn_borderless_material" id="0x7f020002" />
     <public type="drawable" name="abc_btn_check_material" id="0x7f020003" />
     <public type="drawable" name="abc_btn_colored_material" id="0x7f020006" />
@@ -520,6 +518,8 @@
     <public type="drawable" name="common_google_signin_btn_icon_light_normal_background" id="0x7f020061" />
     <public type="drawable" name="common_google_signin_btn_text_dark_normal_background" id="0x7f020065" />
     <public type="drawable" name="common_google_signin_btn_text_light_normal_background" id="0x7f02006a" />
+    <public type="drawable" name="design_ic_visibility" id="0x7f02006d" />
+    <public type="drawable" name="design_ic_visibility_off" id="0x7f02006e" />
     <public type="drawable" name="googleg_disabled_color_18" id="0x7f020071" />
     <public type="drawable" name="googleg_standard_color_18" id="0x7f020072" />
     <public type="drawable" name="notification_bg_low_normal" id="0x7f020098" />
