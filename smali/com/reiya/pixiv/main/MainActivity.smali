@@ -950,6 +950,10 @@
 
     invoke-virtual {p0, v0}, Lcom/reiya/pixiv/main/MainActivity;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Ljava/lang/System;->exit(I)V
+
     .line 345
     invoke-super {p0}, Landroid/support/v7/app/AppCompatActivity;->onDestroy()V
 

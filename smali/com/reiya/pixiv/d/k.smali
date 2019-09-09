@@ -65,7 +65,7 @@
 
     const-string v4, "path"
 
-    const-string v5, "/MyPictures/"
+    const-string v5, "/Pictures/PivisionM/"
 
     invoke-interface {v1, v4, v5}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
