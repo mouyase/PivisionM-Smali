@@ -13,7 +13,7 @@
             <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/tvPage" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@android:color/black" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="4.0" android:layout_above="@id/relativeLayout" />
             <ImageView android:id="@id/ivDyn" android:visibility="gone" android:layout_width="128.0dip" android:layout_height="128.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" app:srcCompat="@drawable/ic_play_circle_filled_black_36px" />
         </RelativeLayout>
-        <TextView android:id="@id/tvCaption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" />
+        <TextView android:id="@id/tvCaption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip"  android:textIsSelectable="true" android:autoLink="web"/>
         <TextView android:id="@id/tvInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="TextView" />
         <me.gujun.android.taggroup.TagGroup android:id="@id/tagLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" app:atg_borderColor="@android:color/darker_gray" app:atg_textColor="@color/grey_128" app:atg_borderStrokeWidth="1.0dip" app:atg_textSize="14.0sp" app:atg_verticalPadding="8.0dip" />
         <RelativeLayout android:id="@id/userInfoLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
