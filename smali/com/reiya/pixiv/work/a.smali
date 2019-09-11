@@ -501,6 +501,22 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    #这是按钮
+    const v0, 0x7f0f0086
+
+    invoke-virtual {p0, v0}, Lcom/reiya/pixiv/work/ViewActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/widget/ImageView;
+
+    iput-object v0, p0, Lcom/reiya/pixiv/work/ViewActivity;->button:Landroid/widget/ImageView;
+
+    .line 76
+    iget-object v0, p0, Lcom/reiya/pixiv/work/ViewActivity;->button:Landroid/widget/ImageView;
+
+    invoke-virtual {v0, p0}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
     .line 207
     const v0, 0x7f0f00b9
 
