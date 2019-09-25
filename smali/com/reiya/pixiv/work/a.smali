@@ -5,7 +5,7 @@
 # interfaces
 .implements Lcom/reiya/pixiv/d/b$a;
 .implements Lcom/reiya/pixiv/work/b$b;
-.implements Lcom/reiya/pixiv/work/ViewActivity;
+
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
@@ -33,7 +33,6 @@
 
 .field private f:Landroid/widget/CheckBox;
 
-.field private button:Landroid/widget/ImageView;
 
 # direct methods
 .method public constructor <init>()V
@@ -501,26 +500,6 @@
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
-
-    #这是按钮
-    const v0, 0x7f0f0086
-
-    invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/ImageView;
-
-    iput-object v0, p0, Lcom/reiya/pixiv/work/a;->button:Landroid/widget/ImageView;
-
-    #这是监听器
-    iget-object v0, p0, Lcom/reiya/pixiv/work/a;->button:Landroid/widget/ImageView;
-
-    invoke-static {}, Lcom/reiya/pixiv/work/ViewActivity;->getInstance()Lcom/reiya/pixiv/work/ViewActivity;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 207
     const v0, 0x7f0f00b9

@@ -78,9 +78,13 @@
     invoke-virtual {v2, v3}, Lokhttp3/logging/HttpLoggingInterceptor;->setLevel(Lokhttp3/logging/HttpLoggingInterceptor$Level;)Lokhttp3/logging/HttpLoggingInterceptor;
 
     .line 59
-    new-instance v3, Lokhttp3/OkHttpClient$Builder;
+    new-instance v3, Ltech/yojigen/pivisionm/PixivClient;
 
-    invoke-direct {v3}, Lokhttp3/OkHttpClient$Builder;-><init>()V
+    invoke-direct {v3}, Ltech/yojigen/pivisionm/PixivClient;-><init>()V
+
+    invoke-virtual {v3}, Ltech/yojigen/pivisionm/PixivClient;->Builder()Lokhttp3/OkHttpClient$Builder;
+
+    move-result-object v3
 
     .line 60
     invoke-virtual {v3, v1}, Lokhttp3/OkHttpClient$Builder;->cache(Lokhttp3/Cache;)Lokhttp3/OkHttpClient$Builder;
@@ -110,7 +114,7 @@
     sput-object v0, Lcom/reiya/pixiv/e/a;->a:Lokhttp3/OkHttpClient;
 
     .line 65
-    const-string v0, "https://api.pixiv.4cy.me/"
+    const-string v0, "https://app-api.pixiv.net/"
 
     invoke-static {v0}, Lcom/reiya/pixiv/e/a;->b(Ljava/lang/String;)Lretrofit2/Retrofit;
 

@@ -36,8 +36,6 @@
 
 .field private f:Landroid/widget/ImageView;
 
-# 静态变量Activity
-.field private static mActivity:Lcom/reiya/pixiv/work/ViewActivity;
 
 # direct methods
 .method public constructor <init>()V
@@ -483,8 +481,6 @@
     move v1, v0
 
     goto :goto_0
-
-    sput-object p0, Lcom/reiya/pixiv/work/ViewActivity;->mActivity:Lcom/reiya/pixiv/work/ViewActivity;
 .end method
 
 .method public onCreateOptionsMenu(Landroid/view/Menu;)Z
@@ -536,14 +532,4 @@
     .packed-switch 0x102002c
         :pswitch_0
     .end packed-switch
-.end method
-
-#获取Activity方法
-.method public static getInstance()Lcom/reiya/pixiv/work/ViewActivity;
-    .locals 1
-
-    .line 23
-    sget-object v0, Lcom/reiya/pixiv/work/ViewActivity;->mActivity:Lcom/reiya/pixiv/work/ViewActivity;
-
-    return-object v0
 .end method
