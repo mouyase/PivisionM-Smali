@@ -93,6 +93,15 @@
 
     move-result-object v0
 
+    const-string v1, "referer"
+
+    const-string v2, "https://www.pixiv.net"
+
+    .line 50
+    invoke-virtual {v0, v1, v2}, Lokhttp3/Request$Builder;->header(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/Request$Builder;
+
+    move-result-object v0
+
     const-string v1, "App-OS-Version"
 
     new-instance v2, Ljava/lang/StringBuilder;
