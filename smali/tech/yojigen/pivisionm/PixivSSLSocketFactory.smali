@@ -7,7 +7,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 22
+    .line 21
     invoke-direct {p0}, Ljavax/net/ssl/SSLSocketFactory;-><init>()V
 
     return-void
@@ -20,7 +20,7 @@
     .param p1, "paramString"    # Ljava/lang/String;
     .param p2, "paramInt"    # I
 
-    .line 25
+    .line 24
     const/4 v0, 0x0
 
     return-object v0
@@ -33,7 +33,7 @@
     .param p3, "paramInetAddress"    # Ljava/net/InetAddress;
     .param p4, "paramInt2"    # I
 
-    .line 30
+    .line 29
     const/4 v0, 0x0
 
     return-object v0
@@ -44,7 +44,7 @@
     .param p1, "paramInetAddress"    # Ljava/net/InetAddress;
     .param p2, "paramInt"    # I
 
-    .line 35
+    .line 34
     const/4 v0, 0x0
 
     return-object v0
@@ -57,7 +57,7 @@
     .param p3, "paramInetAddress2"    # Ljava/net/InetAddress;
     .param p4, "paramInt2"    # I
 
-    .line 40
+    .line 39
     const/4 v0, 0x0
 
     return-object v0
@@ -75,31 +75,31 @@
         }
     .end annotation
 
-    .line 45
+    .line 44
     if-nez p1, :cond_0
 
-    .line 46
+    .line 45
     invoke-static {}, Lkotlin/jvm/internal/Intrinsics;->throwNpe()V
 
-    .line 47
+    .line 46
     :cond_0
     invoke-virtual {p1}, Ljava/net/Socket;->getInetAddress()Ljava/net/InetAddress;
 
     move-result-object v0
 
-    .line 48
+    .line 47
     .local v0, "inetAddress":Ljava/net/InetAddress;
     const-string v1, "address"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 49
+    .line 48
     if-eqz p4, :cond_1
 
-    .line 50
+    .line 49
     invoke-virtual {p1}, Ljava/net/Socket;->close()V
 
-    .line 51
+    .line 50
     :cond_1
     const/4 v1, 0x0
 
@@ -107,20 +107,20 @@
 
     move-result-object v1
 
-    .line 52
+    .line 51
     .local v1, "socketFactory":Ljavax/net/SocketFactory;
     if-eqz v1, :cond_3
 
-    .line 53
+    .line 52
     invoke-virtual {v1, v0, p3}, Ljavax/net/SocketFactory;->createSocket(Ljava/net/InetAddress;I)Ljava/net/Socket;
 
     move-result-object v2
 
-    .line 54
+    .line 53
     .local v2, "socket":Ljava/net/Socket;
     if-eqz v2, :cond_2
 
-    .line 55
+    .line 54
     move-object v3, v2
 
     check-cast v3, Ljavax/net/ssl/SSLSocket;
@@ -135,7 +135,7 @@
 
     invoke-virtual {v3, v4}, Ljavax/net/ssl/SSLSocket;->setEnabledProtocols([Ljava/lang/String;)V
 
-    .line 56
+    .line 55
     move-object v3, v2
 
     check-cast v3, Ljavax/net/ssl/SSLSocket;
@@ -144,58 +144,58 @@
 
     move-result-object v3
 
-    .line 57
+    .line 56
     .local v3, "sSLSession":Ljavax/net/ssl/SSLSession;
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 58
+    .line 57
     .local v4, "stringBuilder":Ljava/lang/StringBuilder;
     const-string v5, "Established "
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 59
+    .line 58
     const-string v5, "session"
 
     invoke-static {v3, v5}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 60
+    .line 59
     invoke-interface {v3}, Ljavax/net/ssl/SSLSession;->getProtocol()Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 61
+    .line 60
     const-string v5, " connection with "
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 62
+    .line 61
     invoke-interface {v3}, Ljavax/net/ssl/SSLSession;->getPeerHost()Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 63
+    .line 62
     const-string v5, " using "
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 64
+    .line 63
     invoke-interface {v3}, Ljavax/net/ssl/SSLSession;->getCipherSuite()Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 65
+    .line 64
     return-object v2
 
-    .line 67
+    .line 66
     .end local v3    # "sSLSession":Ljavax/net/ssl/SSLSession;
     .end local v4    # "stringBuilder":Ljava/lang/StringBuilder;
     :cond_2
@@ -207,7 +207,7 @@
 
     throw v3
 
-    .line 69
+    .line 68
     .end local v2    # "socket":Ljava/net/Socket;
     :cond_3
     new-instance v2, Lkotlin/TypeCastException;
@@ -222,7 +222,7 @@
 .method public getDefaultCipherSuites()[Ljava/lang/String;
     .locals 1
 
-    .line 74
+    .line 73
     const/4 v0, 0x0
 
     new-array v0, v0, [Ljava/lang/String;
@@ -233,7 +233,7 @@
 .method public getSupportedCipherSuites()[Ljava/lang/String;
     .locals 1
 
-    .line 79
+    .line 78
     const/4 v0, 0x0
 
     new-array v0, v0, [Ljava/lang/String;
