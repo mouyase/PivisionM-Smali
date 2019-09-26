@@ -24,7 +24,7 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 14
+    .locals 47
 
     .line 14
     const/4 v0, 0x0
@@ -39,33 +39,99 @@
     sput-object v0, Ltech/yojigen/pivisionm/PixivDNS;->newDns:Ljava/util/List;
 
     .line 16
-    const-string v1, "210.140.131.219"
+    const-string v1, "210.140.131.203"
 
-    const-string v2, "210.140.131.222"
+    const-string v2, "210.140.131.204"
 
-    const-string v3, "210.140.131.224"
+    const-string v3, "210.140.131.205"
 
-    const-string v4, "210.140.92.142"
+    const-string v4, "210.140.131.206"
 
-    const-string v5, "210.140.92.143"
+    const-string v5, "210.140.131.207"
 
-    const-string v6, "210.140.92.144"
+    const-string v6, "210.140.131.208"
 
-    const-string v7, "210.140.92.145"
+    const-string v7, "210.140.131.209"
 
-    const-string v8, "210.140.92.136"
+    const-string v8, "210.140.131.210"
 
-    const-string v9, "210.140.92.137"
+    const-string v9, "210.140.131.211"
 
-    const-string v10, "210.140.92.138"
+    const-string v10, "210.140.131.212"
 
-    const-string v11, "210.140.92.139"
+    const-string v11, "18.211.61.121"
 
-    const-string v12, "210.140.92.140"
+    const-string v12, "210.140.131.213"
 
-    const-string v13, "210.140.92.141"
+    const-string v13, "210.140.131.214"
 
-    filled-new-array/range {v1 .. v13}, [Ljava/lang/String;
+    const-string v14, "210.140.131.215"
+
+    const-string v15, "210.140.131.216"
+
+    const-string v16, "210.140.131.217"
+
+    const-string v17, "66.6.32.22"
+
+    const-string v18, "210.140.131.218"
+
+    const-string v19, "210.140.131.219"
+
+    const-string v20, "122.208.114.218"
+
+    const-string v21, "13.35.19.186"
+
+    const-string v22, "210.140.131.220"
+
+    const-string v23, "13.35.19.88"
+
+    const-string v24, "210.140.131.222"
+
+    const-string v25, "210.140.131.223"
+
+    const-string v26, "210.140.131.224"
+
+    const-string v27, "210.140.131.225"
+
+    const-string v28, "210.140.131.226"
+
+    const-string v29, "13.35.19.46"
+
+    const-string v30, "210.140.131.180"
+
+    const-string v31, "52.219.68.134"
+
+    const-string v32, "210.140.131.181"
+
+    const-string v33, "122.208.114.218"
+
+    const-string v34, "210.140.131.182"
+
+    const-string v35, "210.140.131.183"
+
+    const-string v36, "210.140.131.184"
+
+    const-string v37, "210.140.92.142"
+
+    const-string v38, "210.140.92.143"
+
+    const-string v39, "210.140.92.144"
+
+    const-string v40, "210.140.92.145"
+
+    const-string v41, "210.140.92.136"
+
+    const-string v42, "210.140.92.137"
+
+    const-string v43, "210.140.92.138"
+
+    const-string v44, "210.140.92.139"
+
+    const-string v45, "210.140.92.140"
+
+    const-string v46, "210.140.92.141"
+
+    filled-new-array/range {v1 .. v46}, [Ljava/lang/String;
 
     move-result-object v0
 
@@ -77,10 +143,10 @@
 .method private constructor <init>()V
     .locals 6
 
-    .line 33
+    .line 66
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 34
+    .line 67
     sget-object v0, Ltech/yojigen/pivisionm/PixivDNS;->addresses:[Ljava/lang/String;
 
     array-length v1, v0
@@ -92,7 +158,7 @@
 
     aget-object v3, v0, v2
 
-    .line 36
+    .line 69
     .local v3, "address":Ljava/lang/String;
     :try_start_0
     sget-object v4, Ltech/yojigen/pivisionm/PixivDNS;->newDns:Ljava/util/List;
@@ -105,18 +171,18 @@
     :try_end_0
     .catch Ljava/net/UnknownHostException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 39
+    .line 72
     goto :goto_1
 
-    .line 37
+    .line 70
     :catch_0
     move-exception v4
 
-    .line 38
+    .line 71
     .local v4, "e":Ljava/net/UnknownHostException;
     invoke-virtual {v4}, Ljava/net/UnknownHostException;->printStackTrace()V
 
-    .line 34
+    .line 67
     .end local v3    # "address":Ljava/lang/String;
     .end local v4    # "e":Ljava/net/UnknownHostException;
     :goto_1
@@ -124,7 +190,7 @@
 
     goto :goto_0
 
-    .line 41
+    .line 74
     :cond_0
     return-void
 .end method
@@ -132,19 +198,19 @@
 .method public static getInstance()Ltech/yojigen/pivisionm/PixivDNS;
     .locals 1
 
-    .line 44
+    .line 77
     sget-object v0, Ltech/yojigen/pivisionm/PixivDNS;->mPixivDNS:Ltech/yojigen/pivisionm/PixivDNS;
 
     if-nez v0, :cond_0
 
-    .line 45
+    .line 78
     new-instance v0, Ltech/yojigen/pivisionm/PixivDNS;
 
     invoke-direct {v0}, Ltech/yojigen/pivisionm/PixivDNS;-><init>()V
 
     sput-object v0, Ltech/yojigen/pivisionm/PixivDNS;->mPixivDNS:Ltech/yojigen/pivisionm/PixivDNS;
 
-    .line 47
+    .line 80
     :cond_0
     sget-object v0, Ltech/yojigen/pivisionm/PixivDNS;->mPixivDNS:Ltech/yojigen/pivisionm/PixivDNS;
 
@@ -173,7 +239,7 @@
         }
     .end annotation
 
-    .line 54
+    .line 87
     :try_start_0
     sget-object v0, Ltech/yojigen/pivisionm/PixivDNS;->newDns:Ljava/util/List;
     :try_end_0
@@ -181,15 +247,15 @@
 
     return-object v0
 
-    .line 55
+    .line 88
     :catch_0
     move-exception v0
 
-    .line 56
+    .line 89
     .local v0, "localException":Ljava/lang/Exception;
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 58
+    .line 91
     .end local v0    # "localException":Ljava/lang/Exception;
     sget-object v0, Lokhttp3/Dns;->SYSTEM:Lokhttp3/Dns;
 

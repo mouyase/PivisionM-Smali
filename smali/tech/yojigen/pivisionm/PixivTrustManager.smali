@@ -10,7 +10,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 11
+    .line 10
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -23,7 +23,7 @@
     .param p1, "chain"    # [Ljava/security/cert/X509Certificate;
     .param p2, "authType"    # Ljava/lang/String;
 
-    .line 15
+    .line 14
     return-void
 .end method
 
@@ -32,14 +32,14 @@
     .param p1, "chain"    # [Ljava/security/cert/X509Certificate;
     .param p2, "authType"    # Ljava/lang/String;
 
-    .line 20
+    .line 19
     return-void
 .end method
 
 .method public getAcceptedIssuers()[Ljava/security/cert/X509Certificate;
     .locals 1
 
-    .line 24
+    .line 23
     const/4 v0, 0x0
 
     new-array v0, v0, [Ljava/security/cert/X509Certificate;
