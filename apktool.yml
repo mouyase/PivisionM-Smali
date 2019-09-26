@@ -1,5 +1,5 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: PivisionM_1.0.2.apk
+apkFileName: PivisionM1.0.3.apk
 compressionType: false
 doNotCompress:
 - arsc
@@ -53,5 +53,5 @@ usesFramework:
   tag: null
 version: 2.4.0
 versionInfo:
-  versionCode: '2'
-  versionName: 1.0.2 Based On Pivision 4.4.1
+  versionCode: '103'
+  versionName: 1.0.3 Based On Pivision 4.4.1
