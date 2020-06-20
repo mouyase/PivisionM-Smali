@@ -38,12 +38,11 @@ packageInfo:
   forcedPackageId: '127'
   renameManifestPackage: null
 sdkInfo:
-  minSdkVersion: '17'
-  targetSdkVersion: '28'
+  minSdkVersion: '19'
+  targetSdkVersion: '29'
 sharedLibrary: false
 sparseResources: false
 unknownFiles:
-  .DS_Store: '0'
   build-data.properties: '8'
   publicsuffixes.gz: '8'
   jsr305_annotations/Jsr305_annotations.gwt.xml: '8'

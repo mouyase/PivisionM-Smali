@@ -39,77 +39,15 @@
     sput-object v0, Ltech/yojigen/pivisionm/PixivDNS;->newDns:Ljava/util/List;
 
     .line 16
-    const-string v1, "210.140.131.203"
+    const-string v1, "210.140.131.222"
 
-    const-string v2, "210.140.131.204"
+    const-string v2, "210.140.131.223"
 
-    const-string v3, "210.140.131.205"
+    const-string v3, "210.140.131.224"
 
-    const-string v4, "210.140.131.206"
+    const-string v4, "210.140.131.225"
 
-    const-string v5, "210.140.131.207"
-
-    const-string v6, "210.140.131.208"
-
-    const-string v7, "210.140.131.209"
-
-    const-string v8, "210.140.131.210"
-
-    const-string v9, "210.140.131.211"
-
-    const-string v10, "210.140.131.212"
-
-    const-string v11, "18.211.61.121"
-
-    const-string v12, "210.140.131.213"
-
-    const-string v13, "210.140.131.214"
-
-    const-string v14, "210.140.131.215"
-
-    const-string v15, "210.140.131.216"
-
-    const-string v16, "210.140.131.217"
-
-    const-string v17, "66.6.32.22"
-
-    const-string v18, "210.140.131.218"
-
-    const-string v19, "210.140.131.219"
-
-    const-string v20, "122.208.114.218"
-
-    const-string v21, "13.35.19.186"
-
-    const-string v22, "210.140.131.220"
-
-    const-string v23, "13.35.19.88"
-
-    const-string v24, "210.140.131.222"
-
-    const-string v25, "210.140.131.223"
-
-    const-string v26, "210.140.131.224"
-
-    const-string v27, "210.140.131.225"
-
-    const-string v28, "210.140.131.226"
-
-    const-string v29, "13.35.19.46"
-
-    const-string v30, "210.140.131.180"
-
-    const-string v31, "52.219.68.134"
-
-    const-string v32, "210.140.131.181"
-
-    const-string v33, "122.208.114.218"
-
-    const-string v34, "210.140.131.182"
-
-    const-string v35, "210.140.131.183"
-
-    const-string v36, "210.140.131.184"
+    const-string v5, "210.140.131.226"
 
     filled-new-array/range {v1 .. v36}, [Ljava/lang/String;
 
